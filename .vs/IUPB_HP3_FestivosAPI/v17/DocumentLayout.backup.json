@@ -1,12 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Natalia Zabaleta\\source\\repos\\IUPB_HP3_FestivosAPI\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C12C016C-8439-4500-BE94-52D4100F5866}|FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj|d:\\proyectos\\c#\\iupb_hp3_festivosapi\\festiuvosapi.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12C016C-8439-4500-BE94-52D4100F5866}|FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj|solutionrelative:festiuvosapi.dominio\\entidades\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12C016C-8439-4500-BE94-52D4100F5866}|FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj|d:\\proyectos\\c#\\iupb_hp3_festivosapi\\festiuvosapi.dominio\\entidades\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12C016C-8439-4500-BE94-52D4100F5866}|FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj|solutionrelative:festiuvosapi.dominio\\entidades\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30B3046-F162-4A78-B4CF-58FB19FF806F}|FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj|d:\\proyectos\\c#\\iupb_hp3_festivosapi\\festivosapi.persistencia\\contexto\\festivosapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30B3046-F162-4A78-B4CF-58FB19FF806F}|FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj|solutionrelative:festivosapi.persistencia\\contexto\\festivosapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30B3046-F162-4A78-B4CF-58FB19FF806F}|FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj|d:\\proyectos\\c#\\iupb_hp3_festivosapi\\festivosapi.persistencia\\festivosapi.persistencia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B30B3046-F162-4A78-B4CF-58FB19FF806F}|FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj|solutionrelative:festivosapi.persistencia\\festivosapi.persistencia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\Entidades\\Tipo.cs",
+              "RelativeDocumentMoniker": "FestiuvosAPI.Dominio\\Entidades\\Tipo.cs",
+              "ToolTip": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\Entidades\\Tipo.cs",
+              "RelativeToolTip": "FestiuvosAPI.Dominio\\Entidades\\Tipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T01:14:01.497Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FestivosAPIContext.cs",
+              "DocumentMoniker": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Persistencia\\Contexto\\FestivosAPIContext.cs",
+              "RelativeDocumentMoniker": "FestivosAPI.Persistencia\\Contexto\\FestivosAPIContext.cs",
+              "ToolTip": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Persistencia\\Contexto\\FestivosAPIContext.cs",
+              "RelativeToolTip": "FestivosAPI.Persistencia\\Contexto\\FestivosAPIContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T01:25:51.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FestivosAPI.Persistencia",
+              "DocumentMoniker": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj",
+              "RelativeDocumentMoniker": "FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj",
+              "ToolTip": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj",
+              "RelativeToolTip": "FestivosAPI.Persistencia\\FestivosAPI.Persistencia.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-24T01:25:19.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Festivo.cs",
+              "DocumentMoniker": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\Entidades\\Festivo.cs",
+              "RelativeDocumentMoniker": "FestiuvosAPI.Dominio\\Entidades\\Festivo.cs",
+              "ToolTip": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\Entidades\\Festivo.cs",
+              "RelativeToolTip": "FestiuvosAPI.Dominio\\Entidades\\Festivo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T01:13:53.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

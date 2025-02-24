@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IUPB_HP3_FestivosAPI", "IUPB_HP3_FestivosAPI\IUPB_HP3_FestivosAPI.csproj", "{C8AF4C77-1FAB-4F3F-8383-A5B282037365}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FestivosAPI.Dominio", "FestiuvosAPI.Dominio\FestivosAPI.Dominio.csproj", "{C12C016C-8439-4500-BE94-52D4100F5866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FestivosAPI.Persistencia", "FestivosAPI.Persistencia\FestivosAPI.Persistencia.csproj", "{B30B3046-F162-4A78-B4CF-58FB19FF806F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8AF4C77-1FAB-4F3F-8383-A5B282037365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8AF4C77-1FAB-4F3F-8383-A5B282037365}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8AF4C77-1FAB-4F3F-8383-A5B282037365}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8AF4C77-1FAB-4F3F-8383-A5B282037365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12C016C-8439-4500-BE94-52D4100F5866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12C016C-8439-4500-BE94-52D4100F5866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12C016C-8439-4500-BE94-52D4100F5866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12C016C-8439-4500-BE94-52D4100F5866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30B3046-F162-4A78-B4CF-58FB19FF806F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30B3046-F162-4A78-B4CF-58FB19FF806F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30B3046-F162-4A78-B4CF-58FB19FF806F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30B3046-F162-4A78-B4CF-58FB19FF806F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
