@@ -1,7 +1,8 @@
 ﻿using FestivosAPI.Dominio.Entidades;
-namespace FestivosAPI.Core.Servicios
+
+namespace FestivosAPI.Core.Repositorio
 {
-    public interface ITipoServicio
+    public interface IFestivoRepositorio
     {
         Task<IEnumerable<Festivo>> ObtenerTodos();
         Task<Festivo> ObtenerPorId(int id);
