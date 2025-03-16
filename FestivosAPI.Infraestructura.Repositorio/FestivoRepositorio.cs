@@ -14,14 +14,29 @@ namespace FestivosAPI.Infraestructura.Repositorio
             this.context = context;
         }
 
-        public Task<Festivo> Agregar(Festivo festivo)
+        public async Task<Festivo> Agregar(Festivo festivo)
         {
-            throw new NotImplementedException();
+            context.Festivos.Add(festivo);
+            await context.SaveChangesAsync();
+            return festivo;
         }
 
-        public Task<bool> Eliminar(int Id)
+        public async Task<bool> Eliminar(int Id)
         {
-            throw new NotImplementedException();
+            var festivoExiste = await context.Festivos.FindAsync(Id);
+            if (festivoExiste == null)
+            {
+                return false;
+            }
+            try
+            {
+                context.Festivos.Remove(festivoExiste);
+                await context.SaveChangesAsync();
+                return true;
+            } catch (Exception)
+            {
+                return false;
+            }
         }
 
         public Task<Festivo> Modificar(Festivo seleccion)
