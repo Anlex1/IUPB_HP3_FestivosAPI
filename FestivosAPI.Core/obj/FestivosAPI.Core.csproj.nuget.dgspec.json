@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj": {}
+    "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj": {}
   },
   "projects": {
-    "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj": {
+    "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj",
+        "projectUniqueName": "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj",
         "projectName": "FestivosAPI.Dominio",
-        "projectPath": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\obj\\",
+        "projectPath": "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,30 +61,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj": {
+    "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj",
+        "projectUniqueName": "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj",
         "projectName": "FestivosAPI.Core",
-        "projectPath": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\obj\\",
+        "projectPath": "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\FestivosAPI.Core.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestivosAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj": {
-                "projectPath": "D:\\PROYECTOS\\C#\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj"
+              "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj": {
+                "projectPath": "Z:\\Proyectos\\Proyectos Pascual\\IUPB_HP3_FestivosAPI\\FestiuvosAPI.Dominio\\FestivosAPI.Dominio.csproj"
               }
             }
           }
@@ -133,12 +139,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
