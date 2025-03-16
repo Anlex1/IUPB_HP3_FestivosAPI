@@ -57,7 +57,7 @@ namespace FestivosAPI.Infraestructura.Repositorio
         {
             return await context.Tipos.ToArrayAsync();
         }
-
+        //a
         public async Task<Tipo> ObtenerPorId(int Id)
         {
             return await context.Tipos.FindAsync(Id);
