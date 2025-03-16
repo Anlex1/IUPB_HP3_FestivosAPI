@@ -15,14 +15,30 @@ namespace FestivosAPI.Infraestructura.Repositorio
             this.context = context;
         }
 
-        public Task<Tipo> Agregar(Tipo Tipo)
+        public async Task<Tipo> Agregar(Tipo TipoFestivo)
         {
-            throw new NotImplementedException();
+            context.Tipos.Add(TipoFestivo);
+            await context.SaveChangesAsync();
+            return TipoFestivo;
         }
 
-        public Task<bool> Eliminar(int Id)
+        public async Task<bool> Eliminar(int Id)
         {
-            throw new NotImplementedException();
+            var tipoExiste = await context.Tipos.FindAsync(Id);
+            if (tipoExiste == null)
+            {
+                return false;
+            }
+            try
+            {
+                context.Tipos.Remove(tipoExiste);
+                await context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public Task<Tipo> Modificar(Tipo seleccion)
