@@ -25,9 +25,16 @@ namespace FestivosAPI.Infraestructura.Repositorio
             throw new NotImplementedException();
         }
 
-        public Task<Tipo> Modificar(Tipo seleccion)
+        public Task<Tipo> Modificar(Tipo tipoFestivo)
         {
-            throw new NotImplementedException();
+            var tipoFestivoExistente = await context.Tipos.FindAsync(tipoFestivo.Id);
+            if (festivoExistente == null)
+            {
+                return null;
+            }
+
+            context.Entry(tipoFestivoExistente).CurrentValues.SetValues(tipoFestivo);
+            return await context.Tipos.FindAsync(tipoFestivo.Id);
         }
 
         public async Task<IEnumerable<Tipo>> ObtenerTodos()
