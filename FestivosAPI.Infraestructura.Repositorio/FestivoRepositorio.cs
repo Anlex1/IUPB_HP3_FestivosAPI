@@ -39,9 +39,16 @@ namespace FestivosAPI.Infraestructura.Repositorio
             }
         }
 
-        public Task<Festivo> Modificar(Festivo seleccion)
+        public async Task<Festivo> Modificar(Festivo festivo)
         {
-            throw new NotImplementedException();
+            var festivoExistente = await context.Festivos.FindAsync(festivo.Id);
+            if (festivoExistente == null)
+            {
+                return null;
+            }
+
+            context.Entry(festivoExistente).CurrentValues.SetValues(festivo);
+            return await context.Festivos.FindAsync(festivo.Id);
         }
 
         public async Task<IEnumerable<Festivo>> ObtenerTodos()
