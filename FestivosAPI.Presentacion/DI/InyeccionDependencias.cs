@@ -10,8 +10,7 @@ namespace FestivosAPI.Presentacion.DI
     public static class InyeccionDependencias
     {
 
-        public static IServiceCollection AgregarDependencias(this IServiceCollection servicios, 
-                                                             IConfiguration configuracion)
+        public static IServiceCollection AgregarDependencias(this IServiceCollection servicios, IConfiguration configuracion)
         {
             //Agregar el DBContext
             servicios.AddDbContext<FestivosAPIContext>(opciones =>

@@ -1,3 +1,5 @@
+using FestivosAPI.Presentacion.DI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 //CORS
@@ -11,6 +13,10 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
         });
 });
+
+var configuration = builder.Configuration;
+
+builder.Services.AgregarDependencias(configuration);
 
 // Add services to the container.
 

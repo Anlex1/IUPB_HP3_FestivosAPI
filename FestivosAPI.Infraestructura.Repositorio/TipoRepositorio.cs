@@ -50,6 +50,7 @@ namespace FestivosAPI.Infraestructura.Repositorio
             }
 
             context.Entry(tipoFestivoExistente).CurrentValues.SetValues(tipoFestivo);
+            await context.SaveChangesAsync();
             return await context.Tipos.FindAsync(tipoFestivo.Id);
         }
 
