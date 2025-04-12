@@ -57,10 +57,17 @@ namespace FestivosAPI.Infraestructura.Repositorio
         {
             return await context.Tipos.ToArrayAsync();
         }
-        //a
+        
         public async Task<Tipo> ObtenerPorId(int Id)
         {
             return await context.Tipos.FindAsync(Id);
+        }
+
+        public async Task<IEnumerable<Tipo>> Buscar(string Dato)
+        {
+            return await context.Tipos
+                .Where(item => item.Descripcion.Contains(Dato)) 
+                .ToListAsync(); 
         }
     }
 }

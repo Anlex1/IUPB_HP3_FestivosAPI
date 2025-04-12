@@ -60,5 +60,13 @@ namespace FestivosAPI.Infraestructura.Repositorio
         {
             return await context.Festivos.FindAsync(Id);
         }
+
+        public async Task<IEnumerable<Festivo>> Buscar(string Dato)
+        {
+            return await context.Festivos
+                 .Where(item => item.Nombre.Contains(Dato)) 
+                 .Include(item => item.TipoFestivo) 
+                 .ToListAsync(); 
+        }
     }
 }

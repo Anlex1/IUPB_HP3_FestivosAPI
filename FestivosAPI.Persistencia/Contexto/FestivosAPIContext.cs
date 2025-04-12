@@ -17,7 +17,7 @@ namespace FestivosAPI.Persistencia.Contexto
 
         }
 
-        void OnModelCreating(ModelBuilder builder)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
             // Modelo Festivo
 
