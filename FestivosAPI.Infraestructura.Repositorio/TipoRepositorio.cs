@@ -41,10 +41,10 @@ namespace FestivosAPI.Infraestructura.Repositorio
             }
         }
 
-        public Task<Tipo> Modificar(Tipo tipoFestivo)
+        public async Task<Tipo> Modificar(Tipo tipoFestivo)
         {
             var tipoFestivoExistente = await context.Tipos.FindAsync(tipoFestivo.Id);
-            if (festivoExistente == null)
+            if (tipoFestivoExistente == null)
             {
                 return null;
             }
