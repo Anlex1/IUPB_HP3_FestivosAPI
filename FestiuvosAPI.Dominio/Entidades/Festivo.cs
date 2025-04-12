@@ -31,7 +31,7 @@ namespace FestivosAPI.Dominio.Entidades
         [Column("TipoId"), NotNull]
         public int TipoId { get; set; }
 
-        public Tipo TipoFestivo { get; set; } 
+        public Tipo? TipoFestivo { get; set; } 
 
     }
 }

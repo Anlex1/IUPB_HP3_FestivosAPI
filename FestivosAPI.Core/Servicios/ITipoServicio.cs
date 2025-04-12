@@ -3,10 +3,11 @@ namespace FestivosAPI.Core.Servicios
 {
     public interface ITipoServicio
     {
-        Task<IEnumerable<Festivo>> ObtenerTodos();
-        Task<Festivo> ObtenerPorId(int id);
-        Task<Festivo> Agregar(Festivo tipo);
-        Task<Festivo> Modificar(Festivo tipo);
+        Task<IEnumerable<Tipo>> ObtenerTodos();
+        Task<Tipo> ObtenerPorId(int id);
+        Task<IEnumerable<Tipo>> Buscar(string Dato);
+        Task<Tipo> Agregar(Tipo tipo);
+        Task<Tipo> Modificar(Tipo tipo);
         Task<bool> Eliminar(int id);
     }
 }

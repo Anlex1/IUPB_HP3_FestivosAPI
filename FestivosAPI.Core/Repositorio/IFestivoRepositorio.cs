@@ -6,8 +6,9 @@ namespace FestivosAPI.Core.Repositorio
     {
         Task<IEnumerable<Festivo>> ObtenerTodos();
         Task<Festivo> ObtenerPorId(int id);
-        Task<Festivo> Agregar(Festivo tipo);
-        Task<Festivo> Modificar(Festivo tipo);
+        Task<IEnumerable<Festivo>> Buscar(string Dato);
+        Task<Festivo> Agregar(Festivo festivo);
+        Task<Festivo> Modificar(Festivo festivo);
         Task<bool> Eliminar(int id);
     }
 }
