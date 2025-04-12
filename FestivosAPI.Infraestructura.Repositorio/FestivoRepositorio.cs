@@ -48,6 +48,8 @@ namespace FestivosAPI.Infraestructura.Repositorio
             }
 
             context.Entry(festivoExistente).CurrentValues.SetValues(festivo);
+            await context.SaveChangesAsync();
+
             return await context.Festivos.FindAsync(festivo.Id);
         }
 

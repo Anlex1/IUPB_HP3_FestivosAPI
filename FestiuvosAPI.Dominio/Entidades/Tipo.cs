@@ -14,7 +14,7 @@ namespace FestivosAPI.Dominio.Entidades
         [Column("Id")]
         public int Id { get; set; }
 
-        [Column("Descripcion"), NotNull]
+        [Column("Tipo"), NotNull]
         public required string Descripcion { get; set; }
 
     }

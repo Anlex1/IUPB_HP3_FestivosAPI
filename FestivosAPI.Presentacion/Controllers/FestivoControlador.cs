@@ -5,11 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FestivosAPI.Presentacion.Controllers
 {
-    public class FestivoControlador
-    {
-        [ApiController]
-        [Route("api/festivos")]
-
+    [ApiController]
+    [Route("api/festivos")]
+    
         public class FestivosControlador : ControllerBase
         {
             private readonly IFestivoServicio servicio;
@@ -77,4 +75,3 @@ namespace FestivosAPI.Presentacion.Controllers
 
         }
     }
-}

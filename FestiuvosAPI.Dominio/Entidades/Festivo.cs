@@ -1,12 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FestivosAPI.Dominio.Entidades
 {
@@ -25,10 +20,10 @@ namespace FestivosAPI.Dominio.Entidades
         [Column("Mes"), NotNull]
         public int Mes { get; set; }
 
-        [Column("DiaPascua"), NotNull]
+        [Column("DiasPascua"), NotNull]
         public int DiaPascua { get; set; }
 
-        [Column("TipoId"), NotNull]
+        [Column("IdTipo"), NotNull]
         public int TipoId { get; set; }
 
         public Tipo? TipoFestivo { get; set; } 
