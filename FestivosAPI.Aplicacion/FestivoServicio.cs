@@ -50,22 +50,23 @@ namespace FestivosAPI.Aplicacion
             return festivos.Any(f => f.Fecha.Date == Fecha.Date);
         }
 
-        private DateTime ObtenerInicioSemanaSanta(int año)
+        private DateTime ObtenerDomingoPascua(int año)
         {
             int a = año % 19;
-            int b = año % 4;
-            int c = año % 7;
-            int d = (19 * a + 24) % 30;
+            int b = año / 100;
+            int c = año % 100;
+            int d = b / 4;
+            int e = b % 4;
+            int f = (b + 8) / 25;
+            int g = (b - f + 1) / 3;
+            int h = (19 * a + b - d - g + 15) % 30;
+            int i = c / 4;
+            int k = c % 4;
+            int l = (32 + 2 * e + 2 * i - h - k) % 7;
+            int m = (a + 11 * h + 22 * l) / 451;
+            int mes = (h + l - 7 * m + 114) / 31;
+            int dia = ((h + l - 7 * m + 114) % 31) + 1;
 
-            int dias = d + (2 * b + 4 * c + 6 * d + 5) % 7;
-
-            int dia = 15 + dias;
-            int mes = 3;
-            if (dia > 31)
-            {
-                dia = dia - 31;
-                mes++;
-            }
             return new DateTime(año, mes, dia);
         }
 
@@ -103,14 +104,14 @@ namespace FestivosAPI.Aplicacion
                 case 3:
                     fechaFestivo = new FechaFestivo
                     {
-                        Fecha = AgregarDias(ObtenerInicioSemanaSanta(año), festivo.DiaPascua),
+                        Fecha = AgregarDias(ObtenerDomingoPascua(año), festivo.DiaPascua),
                         Nombre = festivo.Nombre
                     };
                     break;
                 case 4:
                     fechaFestivo = new FechaFestivo
                     {
-                        Fecha = SiguienteLunes(AgregarDias(ObtenerInicioSemanaSanta(año), festivo.DiaPascua)),
+                        Fecha = SiguienteLunes(AgregarDias(ObtenerDomingoPascua(año), festivo.DiaPascua)),
                         Nombre = festivo.Nombre
                     };
                     break;
