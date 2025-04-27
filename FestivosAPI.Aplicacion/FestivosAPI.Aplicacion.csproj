@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FestiuvosAPI.Dominio\FestivosAPI.Dominio.csproj" />
+    <ProjectReference Include="..\FestivosAPI.Dominio\FestivosAPI.Dominio.csproj" />
     <ProjectReference Include="..\FestivosAPI.Core\FestivosAPI.Core.csproj" />
     <ProjectReference Include="..\FestivosAPI.Infraestructura.Repositorio\FestivosAPI.Infraestructura.Repositorio.csproj" />
   </ItemGroup>
