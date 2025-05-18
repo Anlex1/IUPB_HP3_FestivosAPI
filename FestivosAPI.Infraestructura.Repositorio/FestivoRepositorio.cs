@@ -55,12 +55,16 @@ namespace FestivosAPI.Infraestructura.Repositorio
 
         public async Task<IEnumerable<Festivo>> ObtenerTodos()
         {
-            return await context.Festivos.ToArrayAsync();
+            return await context.Festivos
+              .Include(item => item.TipoFestivo)
+              .ToArrayAsync();
         }
 
         public async Task<Festivo> ObtenerPorId(int Id)
         {
-            return await context.Festivos.FindAsync(Id);
+            return await context.Festivos
+                .Include(item => item.TipoFestivo)
+                .FirstOrDefaultAsync(f => f.Id == Id);
         }
 
         public async Task<IEnumerable<Festivo>> Buscar(string Dato)
